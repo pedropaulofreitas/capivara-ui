@@ -1,0 +1,14 @@
+._notification {
+    width: 400px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    & > div:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    & > div {
+        transition: all 2s;
+    }
+}
